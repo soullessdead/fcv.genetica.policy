@@ -2,7 +2,7 @@
 <metadata>
   <version>1000</version>
   <dependencies>
-    <dependency>profile-Products.PloneBoard:default</dependency>
+    <dependency>profile-Products.Ploneboard:default</dependency>
     <dependency>profile-redturtle.maps.portlet:default</dependency>
     <dependency>profile-eea.facetednavigationtaxonomiccheckbox:default</dependency>
     <dependency>profile-wildcard.media:default</dependency>
