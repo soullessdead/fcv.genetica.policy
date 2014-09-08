@@ -26,6 +26,12 @@ setup(name='fcv.genetica.policy',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'Products.PloneBoard',
+          'redturtle.maps.portlet',
+          'eea.facetednavigationtaxonomiccheckbox',
+          'wildcard.media',
+          'collective.portlet.twitter',
+          'collective.cover',
       ],
       entry_points="""
       # -*- Entry points: -*-
