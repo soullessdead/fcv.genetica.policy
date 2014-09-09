@@ -20,7 +20,7 @@ setup(name='fcv.genetica.policy',
       url='https://github.com/soullessdead/fcv.genetica.policy',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['fcv'],
+      namespace_packages=['fcv', 'fcv.genetica'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
