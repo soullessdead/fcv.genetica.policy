@@ -33,6 +33,9 @@ setup(name='fcv.genetica.policy',
           'collective.portlet.twitter',
           'collective.cover',
       ],
+      extras_require={
+        'test': ['plone.app.testing'],
+        },
       entry_points="""
       # -*- Entry points: -*-
 
