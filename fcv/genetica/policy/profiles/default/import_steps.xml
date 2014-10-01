@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<import-steps>
+   <import-step id="fcv.genetica.policy.various"
+                version="20080625-01"
+                handler="fcv.genetica.policy.setuphandlers.setupVarious"
+                title="fcv.genetica.policy: miscellaneous import steps">
+ <!--
+     <dependency step="plone-content" />
+ -->
+     Various import steps that are not handled by GS import/export
+     handlers.
+   </import-step>
+</import-steps>
