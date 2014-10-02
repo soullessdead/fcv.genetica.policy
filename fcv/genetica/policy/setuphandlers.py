@@ -67,6 +67,16 @@ def create_defaults_contents(portal):
     obj.reindexObject('Title')
     logger.info("Renamed the {0} item".format(obj))
 
+    #Create FacultyStaffDirectory section
+    title = u'Personal'
+    obj = api.content.create(type='FSDFacultyStaffDirectory', title=title, container=portal)
+    obj.setTitle(title)
+    obj.reindexObject('Title')
+    #obj_contrain_types = ['FSDCommittessFolder', 'FSDSpecialtiesFolder', 'FSDClassification', 'Topic', 'FSDDepartament', 'FSDPerson', 'Document']
+    #constrain_types(obj, obj_contrain_types)
+    api.content.transition(obj,'publish')
+    logger.info("Created the {0} item".format(obj))
+
 def create_admin_user(portal):
     """Create admin user """
     properties = dict(
