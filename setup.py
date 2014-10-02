@@ -28,7 +28,6 @@ setup(name='fcv.genetica.policy',
           # -*- Extra requirements: -*-
           'Products.FacultyStaffDirectory',
           'Products.Ploneboard',
-          'redturtle.maps.portlet',
           'eea.facetednavigationtaxonomiccheckbox',
           'wildcard.media',
           'collective.portlet.twitter',
