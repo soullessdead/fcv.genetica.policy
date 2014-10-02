@@ -32,6 +32,7 @@ setup(name='fcv.genetica.policy',
           'wildcard.media',
           'collective.portlet.twitter',
           'collective.cover',
+          'fcv.genetica.theme',
       ],
       extras_require={
         'test': ['plone.app.testing'],

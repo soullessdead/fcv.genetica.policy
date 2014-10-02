@@ -8,5 +8,6 @@
     <dependency>profile-wildcard.media:default</dependency>
     <dependency>profile-collective.portlet.twitter:default</dependency>
     <dependency>profile-collective.cover:default</dependency>
+    <dependency>profile-fcv.genetica.theme:default</dependency>
   </dependencies>
 </metadata>
